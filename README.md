@@ -1,6 +1,14 @@
 # lvl-up
 
-# Next Larger Palindrome
+# Setup
+1. Ensure you have the `elixir 1.10` or greater and `erlang 23.0` installed on your system
+2. Go into a problem set folder
+3. Ensure there is a `mix.exs` file and then run the following commands:
+    1. `mix deps.get` - This will fetch an projec dependencies
+    2. `mix test` - This will run the test.
+
+# Problem Set
+## Next Larger Palindrome
 Next Larger Palindrome goes like this:
 You are given a number, and you need to find the next larger palindrome.
 
@@ -11,7 +19,7 @@ You are given a number, and you need to find the next larger palindrome.
 9999 => 10001
 ```
 
-# Does a Continuation Exist?
+## Does a Continuation Exist?
 We are given a 2d matrix, for example
 
 ```
